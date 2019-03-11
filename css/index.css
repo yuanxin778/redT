@@ -1,0 +1,454 @@
+#banSnb {
+  min-width: 900px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+#banSnb .hd {}
+
+#banSnb .hd ul {
+  position: absolute;
+  bottom: 40px;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+}
+
+#banSnb .hd li {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 0 6px;
+}
+
+#banSnb .hd li.on {
+  background: #fff;
+}
+
+#banSnb .hd a {
+  display: block;
+  position: absolute;
+  text-align: left;
+}
+
+#banSnb .hd a.next {
+  right: 20px;
+  top: 40%;
+}
+
+#banSnb .hd a.prev {
+  left: 20px;
+  top: 40%;
+}
+
+#banSnb .hd a i {
+  font-size: 60px;
+  color: #fff;
+  opacity: .8;
+}
+
+#banSnb .hd a:hover i {
+  color: #c8a384;
+}
+
+#banSnb .bd {
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+#banSnb .bd img {
+  width: 100%;
+  max-width: 1920px;
+  display: block;
+  margin: auto;
+}
+
+/* #banSnb .bd li{height:1205px;min-width:1000px;}
+#banSnb .bd li.img1{ background:url(../img/1.jpg) no-repeat center top;}
+#banSnb .bd li.img2{ background:url(../img/2.jpg) no-repeat center top;}
+#banSnb .bd li.img3{ background:url(../img/3.jpg) no-repeat center top;}
+#banSnb .bd li.img4{ background:url(../img/4.jpg) no-repeat center top;} */
+
+.bantxt {
+  min-width: 900px;
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 300px;
+  text-align: right;
+}
+
+.bantxt p {
+  display: inline-block;
+  width: 680px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.bantxt p a {
+  display: block;
+  width: 180px;
+  border: 3px solid #debf96;
+  color: #debf96;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.bantxt p a:hover {
+  color: #fff;
+  background: #debf96;
+}
+
+.ban4txt {
+  min-width: 900px;
+  width: 80%;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding-top: 340px;
+  text-align: center;
+  color: #fff;
+}
+
+.ban4txt img {
+  width: 100%;
+}
+
+.ban4txt h4 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 30px;
+}
+
+.ban4txt h5 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.ban4txt h6 a {
+  display: inline-block;
+  padding: 10px 40px;
+  color: #4e8bf8;
+  background: #fff;
+  font-size: 2.5rem;
+}
+
+.ban4txt h6 a:hover {
+  color: #fff;
+  background: #4e8bf8;
+}
+
+.ban3txt {
+  min-width: 900px;
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 300px;
+  text-align: left;
+}
+
+.zxgg {
+  width: 80%;
+  min-width: 900px;
+  margin: 50px auto 0;
+  padding-bottom: 50px;
+  /* background: url(../img/banbj.jpg) no-repeat center top; */
+  background-size: cover;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.zxgg ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1.2rem;
+  min-width: 900px;
+  width: 90%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.zxgg ul li {
+  width: 23%;
+}
+
+.zxgg ul li:nth-child(2n) {
+  margin-top: 130px;
+}
+
+.zxgg span {
+  font-family: "仿宋";
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.zxgg b {
+  font-family: "Georgia";
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.zxgg ul li p {
+  padding: .8rem 0.5rem;
+}
+
+.zxgg ul li p span {
+  font-weight: bold;
+  display: block;
+}
+
+.maTit {
+  font-size: 1.6rem;
+  text-align: center;
+  width: 50px;
+}
+
+.maTit b {
+  display: block;
+}
+
+.maTit span {
+  width: 5px;
+  display: inline-block;
+  margin: 15px 0;
+  height: 40px;
+  background: #cfa972;
+}
+
+a.more {
+  display: block;
+  color: #fff;
+  margin-bottom: 120px;
+  font-size: 0.9rem;
+  padding: .8rem .5rem;
+  position: relative;
+}
+
+a.more:before {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #c8a384;
+  position: absolute;
+  left: 15px;
+  bottom: 0px;
+}
+
+a.more i {
+  color: #c8a384;
+  margin-left: .5rem;
+}
+
+.gx01,
+.gx02 {
+  min-width: 900px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 99
+}
+
+.gx01 ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 1.2rem auto;
+}
+
+.gx01 ul li {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+
+.gx01 ul li span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 3;
+}
+
+.gx03 {
+  min-width: 900px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gxleft {
+  width: 50%;
+}
+
+.gxright {
+  width: 42%;
+  overflow: hidden;
+  text-align: right;
+}
+
+.gx06,
+.gx05 {
+  border-top: 0px;
+  margin: 20px auto 80px;
+}
+
+.gx06 .gxright {
+  text-align: left;
+}
+
+.gx06 .gxright .maTit {
+  float: left;
+}
+
+.gxright .maTit {
+  float: right;
+}
+
+.gxright h4,
+.gx01 h4,
+.gx02 h4 {
+  font-family: "仿宋";
+  font-size: 22px;
+  line-height: 1.5;
+  clear: both;
+  font-weight: bold;
+}
+
+.gxright h5,
+.gx01 h5,
+.gx02 h5 {
+  font-family: "Georgia";
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.gxright p,
+.gx02 p {
+  font-size: 0.9rem;
+  color: #000;
+  line-height: 1.6;
+  margin: 10px 0 30px;
+}
+
+.gx03-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gx03-img div {
+  width: 48%
+}
+
+a.gxmore {
+  display: block;
+  color: #000;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+  padding: .8rem .5rem;
+  position: relative;
+}
+
+a.gxmore:before {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #c8a384;
+  position: absolute;
+  right: 40px;
+  bottom: 0px;
+}
+
+a.gxmore i {
+  color: #c8a384;
+  margin-left: .5rem;
+}
+
+.gx04 {
+  min-width: 900px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gx04 h3 {
+  font-family: "仿宋";
+  font-size: 22px;
+  line-height: 1.6;
+  clear: both;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.gx04 h4 {
+  display: block;
+  font-family: "Georgia";
+  font-size: 1rem;
+  padding-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.gx02top {
+  width: 35rem;
+}
+
+.gx02cen {
+  position: relative;
+  height: 500px;
+}
+
+.gx02cen div {
+  position: absolute;
+  overflow: hidden;
+}
+
+.gx02cen img {
+  width: 100%;
+  display: block;
+}
+
+.gx02cen .g0 {
+  width: 200px;
+  left: -220px;
+  top: -190px;
+}
+
+.gx02cen .g1 {
+  width: 22%;
+  position: relative;
+}
+
+.gx02cen .g2 {
+  width: 30%;
+  left: 25%;
+  top: 40px;
+}
+
+.gx02cen .g3 {
+  width: 35%;
+  left: 58%;
+  top: -190px;
+}
+
+.gx02cen .g4 {
+  width: 210px;
+  left: 91%;
+  top: -320px;
+}

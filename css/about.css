@@ -1,0 +1,440 @@
+.screenlist {
+  border-bottom: 1px solid #ccc;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.screenlist span {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.screenlist span:hover {
+  color: #e60012;
+}
+
+.demenlist {
+  min-height: 740px;
+  overflow: hidden;
+  padding: 0 1% 5rem;
+}
+
+.demenlist li {
+  width: 19%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+.demenlist li img {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width:1100px) {
+  .demenlist li {
+    width: 24%;
+  }
+}
+
+.perinfo {
+  min-width: 1000px;
+  margin-top: 25px;
+  position: relative;
+  background: #000;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.perinfo img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0
+}
+
+.perinfo>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  z-index: 1;
+  position: relative;
+}
+
+.perinfo h3 {
+  display: flex;
+  align-items: center;
+}
+
+.perinfo h3 b {
+  font-size: 48px;
+  width: 180px;
+  font-weight: normal;
+}
+
+.perinfo h3 span {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.perinfo h5 {
+  float: right;
+  width: 200px;
+  text-align: right;
+}
+
+.perinfo h5 span {
+  padding: 0 20px 0 5px;
+}
+
+.percase {
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding-left: 1%;
+}
+
+.percase li {
+  width: 19%;
+  margin-right: 1%;
+  float: left;
+}
+
+.percase li img {
+  width: 100%;
+}
+
+#designInfo {
+  padding-bottom: 60px;
+}
+
+#desgintit {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+#desgintit li {
+  width: 120px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#desgintit li.on,
+#desgintit li:hover {
+  color: #e60012;
+}
+
+.desginitems {
+  display: none;
+  overflow: hidden;
+}
+
+.desimg {
+  width: 468px;
+  margin-right: 30px;
+}
+
+.destxt {
+  font-size: 14px;
+  line-height: 1.7;
+  display: flex;
+}
+
+.destxtimg {
+  display: flex;
+  margin-top: 30px;
+  align-items: top;
+}
+
+.destxtimg li {
+  width: 25%;
+  margin-right: 2%;
+}
+
+.descase {
+  display: flex;
+  align-items: top;
+}
+
+.descase li {
+  width: 23%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+}
+
+.contadd {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.contadd img {
+  margin-right: 100px;
+}
+
+.contadd h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contadd p i {
+  margin-right: 5px;
+  color: #999;
+  text-align: center;
+}
+
+.contadd2 {
+  font-size: 14px;
+  margin: 30px 80px;
+  overflow: hidden;
+  line-height: 2;
+}
+
+.contadd2 h3 {
+  font-size: 18px;
+}
+
+.contadd2 p {
+  float: left;
+  width: 30%
+}
+
+.contadd2 p i {
+  margin-right: 5px;
+  color: #999;
+}
+
+.dpg01 {
+  max-width: 1300px;
+  min-width: 1000px;
+  margin: 170px auto 0;
+  display: flex;
+}
+
+.dpg01left {
+  width: 50%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.dpg01right {
+  width: 45%;
+  text-align: center;
+  background: #f4f4f4;
+  padding-bottom: 50px;
+}
+
+.dpg01right img {
+  margin: -50px auto 0;
+}
+
+.dpg01top {
+  position: relative;
+}
+
+.dpg01top:before {
+  position: absolute;
+  background: #222;
+  width: 75%;
+  height: 1px;
+  content: '';
+  left: -85%;
+  top: 45px;
+}
+
+#banSnb1 .bd h2 {
+  font-size: 26px;
+  padding: 60px 0;
+  text-align: right;
+}
+
+#banSnb1 .bd h2 span {
+  font-size: 56px;
+}
+
+#banSnb1 .bd h3 {
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+#banSnb1 .bd p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #999;
+  line-height: 1.6;
+}
+
+#banSnb1 .bd a {
+  color: #999;
+}
+
+#banSnb1 .bd a:hover {
+  color: #e60012;
+}
+
+#banSnb1 .hd a {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #000;
+  color: #fff;
+  right: 0px;
+  top: 24px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#banSnb1 .hd ul {
+  position: absolute;
+  right: -17%;
+  bottom: 0;
+  width: 50px;
+  background: #fff;
+  text-align: center;
+}
+
+#banSnb1 .hd li {
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+#banSnb1 .hd li:hover,
+#banSnb1 .hd li.on {
+  color: #e60012;
+}
+
+.dpg02 {
+  background: url(../img/szbj.jpg) no-repeat center bottom;
+  margin-top: 200px;
+}
+
+.dpg02cent {
+  max-width: 1300px;
+  min-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.dpg02right {
+  width: 50%;
+  background: #f4f4f4;
+  padding: 80px 0 0 50px;
+}
+
+.dpg02right h3 {
+  font-size: 26px;
+  margin-top: 170px;
+  margin-bottom: 30px;
+}
+
+.dpg02right p {
+  font-size: 16px;
+  color: #999;
+  line-height: 1.6;
+}
+
+.dpg02bbs {
+  background: #000;
+  color: #fff;
+  margin-top: 60px;
+  width: 360px;
+  padding: 10px;
+}
+
+.dpg02bbs i {
+  float: right;
+  color: #999;
+  padding-top: 3px
+}
+
+.dpg03 {
+  background: url(../img/szbbj.jpg) no-repeat center bottom;
+}
+
+.dpg03cont {
+  max-width: 1300px;
+  min-width: 1000px;
+  margin: 170px auto 0;
+  position: relative;
+}
+
+.dpg03cont .dpg01top {
+  width: 50%;
+}
+
+.dpg03img01 {
+  position: absolute;
+  right: 0;
+  top: 640px;
+}
+
+.dpg03img02 {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+
+.dpg03txt {
+  padding: 280px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dpg03txt>div {
+  background: #fff;
+  margin-left: -80px;
+  width: 45%;
+  padding: 20px;
+  z-index: 10;
+}
+
+.dpg03txt>div h5 {
+  font-family: Georgia;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.dpg03txt>div h3 {
+  font-size: 26px;
+  line-height: 2;
+}
+
+.dpg03txt>div p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #999;
+}
+
+.dpg03txt>div a {
+  color: #999;
+}
+
+.dpg03txt>div a:hover {
+  color: #e60012;
+}
+
+.dpg04 a {
+  max-width: 1300px;
+  min-width: 900px;
+  margin: -40px auto 80px;
+  height: 90px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  background: #fff;
+  box-shadow: 5px 5px 10px 0px #ccc;
+  font-size: 18px;
+  line-height: 90px;
+  border: 1px solid #ccc
+}
